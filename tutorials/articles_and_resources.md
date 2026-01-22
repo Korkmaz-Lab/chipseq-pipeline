@@ -85,3 +85,19 @@ and practical usage of THOR for differential peak calling.
 * **Differential binding:** Consult the THOR documentation before applying it to replicated experiments.
 
 ---
+
+## Public ChIP-seq Example Datasets (GEO)
+
+### Example GEO Series
+
+The following publicly available ChIP-seq datasets can be used for
+tutorials, benchmarking, or testing analysis pipelines.
+
+- **GSE126004** 
+- **GSE68355** 
+- **GSE153251** 
+
+> **Note:**  
+> These datasets are referenced solely as publicly available examples.
+> No data from these studies are redistributed within this repository.
+
