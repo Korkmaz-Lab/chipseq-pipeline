@@ -1,7 +1,16 @@
 ## ChIP-seq Analysis Workflow
 
-The ChIP-seq pipeline used in Korkmaz Lab follows a modular structure.
-Not all steps are mandatory for every experiment.
+![ChIP-seq pipeline overview](../docs/figures/chipseq_pipeline_overview.png)
+
+**Figure 1.** Overview of the standardized ChIP-seq analysis workflow used in Korkmaz Lab.
+The pipeline follows a modular design, and not all steps are mandatory for every experiment.
+
+### Software Versions
+
+The software versions shown in the workflow diagram represent example
+configurations used in the lab environment. Specific versions may vary
+depending on the computational setup and are not strictly required.
+
 
 ### 1. Initial Quality Control
 Raw sequencing reads are assessed to evaluate sequencing quality
