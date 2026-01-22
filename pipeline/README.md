@@ -2,7 +2,7 @@
 
 ![ChIP-seq pipeline overview](/docs/figures/chipseq_pipeline_overview.png)
 
-**Figure 1.** Overview of the standardized ChIP-seq analysis workflow used in Korkmaz Lab.
+**Figure 1.** Overview of the standardized ChIP-seq analysis workflow used in the Korkmaz Lab.
 The pipeline follows a modular design, and not all steps are mandatory for every experiment.
 
 ### Software Versions
