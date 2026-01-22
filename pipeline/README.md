@@ -11,6 +11,20 @@ The software versions shown in the workflow diagram represent example
 configurations used in the lab environment. Specific versions may vary
 depending on the computational setup and are not strictly required.
 
+### Tools used (core)
+
+| Step | Purpose | Tool(s) |
+|---|---|---|
+| QC | Read quality assessment | FastQC, MultiQC |
+| Optional preprocessing | Adapter/quality trimming (if needed) | Trim Galore, fastp |
+| Alignment | Map reads to reference genome | Bowtie2 |
+| Filtering & dedup | Remove low-quality/duplicates | samtools, sambamba |
+| Signal tracks | Coverage tracks for visualization | bamCoverage (deepTools) / bedGraphToBigWig |
+| Peak calling (single) | Peaks per sample/condition | MACS2 |
+| Differential peaks | Differential binding/peaks between conditions | THOR |
+| Downstream | Annotation, motifs, visualization | HOMER (+ R) |
+
+
 
 ### 1. Initial Quality Control
 Raw sequencing reads are assessed to evaluate sequencing quality
